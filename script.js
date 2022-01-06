@@ -35,8 +35,8 @@ function erase() {
     color = "gray";
 }
 
-//adds the function of only drawing on mouse down, definitely not perfect but I think it's better than 
-//drawing on hover only
+//adds the function of only drawing on mouse down, definitely not perfect
+//but I think it's better than drawing on hover only
 document.body.onmousedown = function() { 
     isDrawing = true;
     console.log(isDrawing);
